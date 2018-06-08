@@ -19,7 +19,7 @@ date
 
 echo "finding the number of copied png files"
 echo "ls ./data/*png | wc -l"
-ls ./data/ | grep png | wc -l
+ls ./data/images/*.png | wc -l
 
 date
 echo "starting training script"
